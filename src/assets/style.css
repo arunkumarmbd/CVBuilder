@@ -1,0 +1,516 @@
+#root {
+    background-color: #e5e7eb;
+    height: 100%;
+}
+
+.loginSection {
+    /* max-width: 600px;
+    margin: 0 auto; */
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+.staticBUtton {
+    display: flex;
+    justify-content: end;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    gap: 15px;
+}
+.staticBUtton button {
+    padding: 8px 10px;
+    background: transparent;
+    border: 0;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.loggedstaticBUtton {
+    display: flex;
+    align-items: center;
+}
+.btn:focus-visible {
+    background: transparent !important;
+    border: 0px !important;
+    box-shadow: none !important;
+    color: #000 !important;
+}
+.staticBUtton button:hover{
+    background: transparent;
+    color: #0d40fb;
+}
+.rowCustom {
+    border: 1px solid #ddd;
+    padding: 3rem;
+    border-radius: .125rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-top: 8px solid #0d6efd;
+}
+
+.adminSection {
+    height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.loginWrapper {
+    width: 30rem;
+    --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-radius: .125rem;
+}
+
+.addFilds {
+    display: grid;
+    align-items: end;
+    gap: 10px;
+    grid-template-columns: 70% 30%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+h1.loginTxt {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.actionFieldsItem input {
+    width: 100%;
+    padding: 10px 15px;
+    /* padding-left: 55px; */
+}
+
+.actionFieldsItem button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dragIcon {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ddd;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+
+}
+
+.actionFieldsItem {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.actionFieldsItem label {
+    font-family: "Poppins", system-ui;
+}
+
+.actionFieldsItem label {
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.actionFieldsItem button {
+    background: #4269f7;
+    border: 1px solid #4269f7;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Poppins", system-ui;
+}
+
+.addFilds .actionFieldsItem label {
+    display: flex;
+}
+
+.dragableSection {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    margin-bottom: 70px;
+}
+.staticBUtton button:focus {
+    background: transparent !important;
+    color: #000 !important;
+}
+.firstrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.fieldItem input {
+    width: 100%;
+}
+
+.firstrow .fieldItem {
+    flex: 0 0 49%;
+}
+
+.mainWrapper {
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    background: #fff;
+    margin: 20px 0;
+}
+
+.mainCvView {
+    font-family: "Poppins", system-ui;
+}
+
+.fieldItem label {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.colorRed {
+    color: #f00;
+    font-weight: 500;
+}
+
+.firstrowfull {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.firstrow {
+    margin-bottom: 16px;
+}
+
+.optionalColor {
+    color: #626262;
+    font-weight: 300;
+}
+
+.fieldItem.btnSections {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    align-items: center;
+}
+
+.fieldItem.btnSections .btn-danger {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.cvTitle {
+
+    margin-bottom: 30px;
+}
+
+.cvTitle h4 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.borderbtm {
+    height: 5px;
+    background: #0d40fb;
+    width: 60px;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+}
+
+.imgProfile .itemformFieldName {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.imgProfile .itemformField {
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.imgProfile .itemformField {
+    display: flex;
+    /* align-items: center; */
+    align-items: baseline;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.fieldItem input+p {
+    font-size: 14px;
+    margin-bottom: 0;
+
+}
+
+.summuryItem+div {
+    margin-right: 16px;
+}
+
+.disable-select.dragHandle {
+    /* position: absolute;
+    left: 17px;
+    bottom: 13px; */
+    border: 0;
+    background: transparent;
+    padding: 0;
+}
+
+.imgProfileim {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.imgProfileim img {
+    width: 100%;
+}
+
+.headerSec {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+/* .summurySection::before, .headerSec:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #0d40fb;
+    width: 200px;
+    bottom: -2px;
+} */
+.summaryMainwrap .summuryItem {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.modal-content .imgProfile .itemformField {
+    margin-bottom: 0;
+}
+
+.summaryMainwrap .summuryItem:last-child {
+    border: 0;
+}
+
+.summurySection {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 20% 80%;
+    align-items: start;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.itemMove .itemsField {
+    border: 1px solid #ddd;
+    margin: 0;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 13px;
+    text-align: left;
+}
+
+.disable-select {
+    border: 1px solid #ddd;
+    margin: 0;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    user-select: none;
+}
+
+.IconsDrag i {
+    font-size: 25px;
+}
+
+.IconsDrag:hover {
+    cursor: all-scroll;
+}
+
+.BtnsSection {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.delSec i {
+    color: #f00;
+}
+
+.editSec,
+.delSec {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    padding: 5px 15px;
+
+    cursor: pointer;
+}
+
+.editSec:hover {
+    color: #4269f7;
+}
+
+.imgProfileim input {
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    font-size: 0;
+    border: 0px !important;
+    box-shadow: none !important;
+    opacity: 0;
+    z-index: 1;
+}
+
+.cemeraIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    transition: 0.5s easeIn;
+    background: #00000052;
+    border-radius: 13px;
+}
+
+.modal-content .imgProfileim {
+    width: 150px;
+    height: 150px;
+}
+
+.modal-content .summuryItem h4 {
+    font-size: 17px;
+}
+
+.headerAdmin {
+    background: #dddee1;
+    padding: 25px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.dynamicField {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+h4.welcomed {
+    color: #4269f7;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.cemeraIcon i {
+    font-size: 35px;
+    color: #fff;
+}
+
+.imgProfileim:hover .cemeraIcon {
+    opacity: 1;
+    transition: 0.5s easeIn;
+}
+
+.summuryItem h4 {
+    font-size: 22px;
+}
+
+/* .firstrowfull .summurySection:nth-last-child(2){
+    border-bottom: none; 
+} */
+
+
+
+@media (max-width:575px) {
+    .cvTitle h4 {
+        font-size: 20px;
+    }
+
+    h4.welcomed {
+        font-size: 20px;
+    }
+
+    .rowCustom {
+        padding: 1rem;
+    }
+
+    .headerSec {
+        flex-direction: column;
+    }
+
+    .summurySection {
+        grid-template-columns: 100%;
+    }
+
+    .imgProfileim input,
+    .modal-content .imgProfileim {
+        height: 300px;
+        width: 100%;
+    }
+
+    .cemeraIcon,
+    .imgProfileim {
+        width: 100%;
+        height: 300px;
+    }
+
+    .imgProfileim img {
+        width: 100%;
+        height: 300px;
+        object-fit: fill;
+        object-position: top;
+    }
+
+    .addFilds {
+        grid-template-columns: 100%;
+    }
+
+    .BtnsSection {
+
+        gap: 0;
+    }
+}
