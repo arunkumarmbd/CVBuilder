@@ -86,7 +86,7 @@ export default function Login({setUpdatingComponent}) {
                   </Form.Group>
 
                   <Button variant="primary" type="submit">
-                    Submit
+                    Login
                   </Button>
                 </Form>
               </Col>
