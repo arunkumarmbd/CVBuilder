@@ -31,7 +31,7 @@ const CustomHeader = ({updatingComponent}) => {
         ) : (
           <div>
             <Button onClick={() => Navigate("/login")}><i class="fa-solid fa-right-to-bracket"></i>
-              Login</Button>
+              Admin Login</Button>
           </div>
         )
       }
